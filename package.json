@@ -1,0 +1,28 @@
+{
+  "name": "RestauranteMana-Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrlandoViancha/RestauranteMana-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrlandoViancha/RestauranteMana-Backend/issues"
+  },
+  "homepage": "https://github.com/OrlandoViancha/RestauranteMana-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mercadopago": "^1.5.14",
+    "mongoose": "^6.4.5",
+    "multer": "^1.4.5-lts.1"
+  }
+}
