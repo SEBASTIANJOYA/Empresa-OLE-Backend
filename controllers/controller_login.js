@@ -10,7 +10,7 @@ const loginUser = async (req, res, next) => {
     });
     
     if (login!=null) {
-      res.send({ result: true,id:login._id,name:login.name,user:login.name_user,email:login.email });
+      res.send({ result: true,id:login._id,name:login.name,user:login.name_user,email:login.email,type_user:login.type_user});
     } else {
       res.send({ result: false });
     }
