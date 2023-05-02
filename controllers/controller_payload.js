@@ -9,9 +9,9 @@ const payOrder= async (req, res) =>{
     let preference={
             items:[],
             back_urls: {
-                success: "http://empresa-ole-backend.vercel.app/send-order",
+                success: "http://empresa-ole-backend.vercel.app/sendOrder",
                 failure: "http://empresa-ole-backend.vercel.app/",
-                pending: "http://empresa-ole-backend.vercel.app/send-order"
+                pending: "http://empresa-ole-backend.vercel.app/sendOrder"
               },
     }
     
